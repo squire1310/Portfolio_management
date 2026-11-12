@@ -4,6 +4,8 @@
 
 This project is in business discovery. This README records the context, problems, and intended outcomes discussed so far. It is not an agreed set of requirements or an approved operating model.
 
+Discovery baseline updated: 12 November 2026. Findings are based on the sponsor's experience and account; practices outside their area require wider validation. References to GDS and ITIL describe reported departmental practice, not an independent assessment of compliance with external guidance.
+
 The project is currently a personal initiative sponsored by the repository owner, intended to be presented to senior leaders later. The Chief Digital and Information Officer (CDIO) is a potential future sponsor, not a confirmed sponsor. Changes to processes and governance may be proposed; adoption will be decided later.
 
 ## Business context
@@ -41,6 +43,8 @@ This contributes to duplicated effort, work falling between teams, delayed mobil
 - Importance is currently determined by who has funding.
 - Work is not currently linked back to strategic outcomes.
 - Delivery group leads, service design leads, strategy leads, and principal architects need to look across the full portfolio to identify overlapping and competing demand.
+- Defra has an internally published strategic outcome framework that is not yet public. Its content has not been reviewed as part of this discovery.
+- Many initiatives can be mapped to that framework, but the sponsor has encountered work with no clear mapping. The reason for these gaps has not yet been established.
 
 ### Capacity and supplier commitments
 
@@ -51,6 +55,8 @@ This contributes to duplicated effort, work falling between teams, delayed mobil
 - Resource augmentation has a reported lead time of six to eight weeks, which can delay mobilisation.
 - More work has been started under outcome supplier contracts than forecast, increasing burn rates and leaving no contract headroom.
 - Capacity discovery therefore needs to consider both people and skills availability and supplier delivery commitments and contractual headroom.
+- Profession leads are responsible for capacity within their professions; supplier management is responsible for capacity in its respective area.
+- Capacity is normally secured separately from funding and governance approvals.
 
 ### Business ownership and decisions
 
@@ -59,12 +65,54 @@ This contributes to duplicated effort, work falling between teams, delayed mobil
 - Work can stall while the business representative seeks approval from the business owner or resolves debate about costs and whether the appropriate business governance has taken place.
 - Delegation itself is not established as the problem; the authority and accountability accompanying it need further exploration.
 
+### Cross-portfolio decision-making
+
+- Leads can make decisions within their own delivery group. The sponsor's stated authority boundary is that they should escalate potential overlap and should not decide matters affecting multiple delivery groups or Service Transformation individually.
+- Delivery groups sit under the Chief Product Officer (CPO); Service Transformation sits under the Chief Digital Officer (CDO).
+- There is no established group above the delivery groups for cross-portfolio decisions and no existing escalation route other than to the CPO and CDO.
+- An issue might subsequently be discussed at executive board, but the sponsor is not aware of this happening.
+
 ### Governance and technical assurance
 
 - Digital governance and business-area governance can overlap and duplicate activity.
 - Teams can be uncertain about which approvals are required and whether they have been completed.
 - Across Service Transformation and delivery groups, responsibility for technical assurance and sign-off of implementations is unclear.
 - Business ownership of a service, DDTS responsibility for its technology and delivery, and authority to approve technical changes are distinct matters that need clarification.
+- The sponsor, a principal architect, has attempted to provide technical assurance for Service Transformation work affecting their area, with limited success.
+
+### Lifecycle, approvals, and transition to live
+
+The four main lifecycle stages reported are **Demand, Mobilisation, Delivery, and Live services**. Shaping takes place within Demand.
+
+- Delivery includes substages following the GDS agile delivery lifecycle. A project delivery lifecycle is being phased out as agile adoption increases. A procurement lifecycle is also used where an agile approach is unsuitable for the initiative.
+- During shaping, the business representative normally confirms that funding has been agreed. This generally means an allocation for the current financial year, not assured funding for the whole initiative.
+- DDTS would prefer to contribute digital input before the business writes its outline business case. Business case sign-off is normally expected; its precise timing and evidence across routes remain to be validated.
+- **Approval to spend** authorises expenditure on Digital and Data work and is required before Mobilisation. It is provided by **PAB, the Portfolio Assurance Board**.
+- Technical assurance takes place through service assessments following GDS guidance. Architectural governance occurs at Alpha and Beta, during Delivery.
+- The Chief Technology Officer participates in PAB and can challenge technical concerns.
+- Service Transformation normally does not follow the same approval route because the group funds its own work. How architectural approval and technical risk acceptance are handled remains unclear.
+- Before production deployment, work must go through the **Service Design Review Board**. Live services normally becomes involved during Delivery, in private beta.
+- Live services reviews project work and allocates resources for activities including knowledge articles, help desk onboarding, and whole-life cost modelling.
+- Live services follows ITIL. Limited understanding of ITIL among delivery staff has caused difficulties.
+- The department is seeking to move towards a "you build it, you run it" operating model, but the sponsor reports limited success so far.
+- Ongoing support, including bug fixes and keeping services running, is usually defined. Continuous improvement arrangements are not normally agreed.
+
+### Blocked, withdrawn, and completed work
+
+- Delivery groups normally review blocked engagements locally. Review frequency has not been established.
+- The business representative normally has authority to withdraw an engagement. The sponsor has not seen DDTS walk away from one; DDTS's formal authority or criteria for doing so remain unknown.
+- Beyond maintaining their own SharePoint list, the sponsor has not seen routine updates to capacity commitments and portfolio records when work pauses, is cancelled, or completes. Practice elsewhere needs validation; this is not evidence that no updates occur anywhere in DDTS.
+
+### Funding, spend, and forecasting
+
+- Businesses bid for further funding each financial year. Suppliers sometimes continue working at risk while continued funding is negotiated; the authorisation and contractual arrangements for this have not been established.
+- Most initiatives reportedly secure continued funding until the minimum viable product (MVP) is delivered, after which funding moves to service support. Continuous improvement funding is not normally settled.
+- The sponsor knows of some approved-budget spreadsheets but does not know the authoritative source or owner of approved-budget information.
+- Actual spend for permanent staff and resource augmentation is maintained in the ERP system. Monthly purchase orders are raised to pay supplier invoices and recorded in the ERP.
+- Spend is normally linked to an initiative, with possible roll-up to programme level.
+- Supplier management maintains forecasts largely as projected burn-down of contract headroom, with limited intelligence from planned work informing them.
+- Programme delivery managers typically maintain delivery forecasts in spreadsheets.
+- Whether contract and programme forecasts reconcile, and how they relate to approved budgets, remains unknown.
 
 ## Delivery landscape
 
@@ -109,21 +157,45 @@ The sponsor has identified three primary outcomes:
 
 **Stretch outcome:** Better visibility of actual spend against approved spend. Feasibility and scope have not yet been assessed.
 
-## Open discovery questions
+## Sponsor's proposed changes and planning principles
 
-These questions remain open and are not requirements:
+These are proposals for later consideration, not adopted DDTS policy or approved requirements:
 
-- Which decisions should leaders make using the shared portfolio view, and who has authority to combine, redirect, sequence, pause, or stop work?
-- Which existing Defra or DDTS strategic outcomes could work be mapped against?
-- What level and time horizon of capacity planning would be useful across individuals, teams, professions, and suppliers?
-- How do other delivery groups and Service Transformation record, shape, prioritise, and progress work today?
-- Which lifecycle stages and governance steps are shared, and which legitimately differ by delivery route or type of work?
-- How should business outcome accountability, technology responsibility, and technical approval authority be clarified?
-- What happens to allocated delivery capacity and supplier commitments when work stalls beyond early shaping?
-- How should paused, blocked, inactive, or abandoned engagements be distinguished and reviewed?
-- What information is available on approved and actual spend, and how could it relate to initiatives and contracts?
-- What baseline measures would demonstrate improvement in the agreed outcomes?
+- Provide visibility of all DDTS work, irrespective of size, across all lifecycle stages and delivery routes.
+- Establish an agreed route and authority for resolving cross-boundary issues. A particular forum or organisational structure has not been selected.
+- Make the business sponsor the definitive voice on how an initiative contributes to strategic outcomes.
+- Distinguish strategic change, live services, technical risk, and statutory obligations as reasons for work. Statutory work may also contribute to strategic outcomes; justification and strategic contribution can coexist. Final classification rules remain open.
+- Allow DDTS to reject initiatives that cannot demonstrate a strategic contribution or another agreed justification. Decision authority, criteria, and escalation arrangements would need agreement.
+- At Demand stage, plan by role type rather than named individuals, with visibility of supplier capacity and contract headroom.
+- Use a capacity planning horizon of at least six months. Supplier availability and contractual headroom are separate considerations.
+
+## Success criteria and measurement status
+
+| Primary outcome | Sponsor's definition of success | Measurement still needed |
+| --- | --- | --- |
+| Whole-portfolio visibility | Account for the totality of DDTS work, irrespective of size. | Define what constitutes a work item and how coverage, completeness, and currency will be checked across delivery routes. |
+| Capacity management | Initially, fewer surprises about contract headroom; as permanent staffing grows, earlier identification of role and skill shortages. | Establish current headroom surprises, forecast accuracy, and notice periods for shortages before setting targets. |
+| Strategic alignment | Work demonstrates contribution to strategic outcomes or another agreed justification; DDTS can reject initiatives without either. | Establish current mapping and justification coverage, validation responsibilities, and decision authority before setting targets. |
+
+Actual versus approved spend remains a stretch outcome. No quantitative baselines or targets have been agreed. The measurement topics above are candidates for validation, not committed metrics.
+
+## Remaining uncertainties and validation needs
+
+The initial open discovery questions have been explored with the sponsor. The following points still need evidence, wider validation, or a decision:
+
+- Confirm recording, shaping, prioritisation, capacity planning, and progression practices across other delivery groups and Service Transformation.
+- Identify the full set of delivery routes and work sources needed to establish complete DDTS coverage, including small work and live service activity.
+- Agree authority for cross-portfolio decisions and escalation, including decisions to reject, combine, redirect, sequence, pause, or stop work.
+- Review the internal strategic outcome framework with authorised stakeholders and understand why some work does not map to it.
+- Clarify business outcome accountability, delegated authority, technology responsibility, architectural approval, and technical risk acceptance, particularly for Service Transformation.
+- Validate lifecycle variants, business case approval timing, governance evidence, and the boundaries between business and digital governance.
+- Clarify responsibility and funding for continuous improvement, and the intended operating model after go-live.
+- Establish how paused, blocked, inactive, withdrawn, cancelled, and completed work is reviewed and how commitments are updated.
+- Understand the effect of stalled work on allocated people and supplier commitments beyond early shaping.
+- Identify authoritative approved-budget information and reconcile initiative, programme, contract, ERP, and forecast records.
+- Understand the authorisation and commercial arrangements when suppliers continue working before further funding is confirmed.
+- Establish baselines and realistic measures for the primary outcomes before agreeing targets.
 
 ## Next discovery step
 
-Validate and refine these findings before defining requirements. No product features, technology choices, common governance model, or changes to organisational responsibilities have been agreed.
+Use this README as the discovery baseline for validation with relevant stakeholders before defining requirements. No product features, technology choices, common governance model, or changes to organisational responsibilities have been agreed. Improvements to visibility will need supporting decisions about accountability, governance, and maintaining reliable information.
