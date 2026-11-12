@@ -10,6 +10,14 @@ The project is currently a personal initiative sponsored by the repository owner
 
 ## Business context
 
+See the [current process flow](docs/current-process.md) for a visual account of demand, shaping, mobilisation, delivery, live services, and annual funding, including known gaps and validation points.
+
+Individual diagrams are available in [As Is Discovery](As%20Is%20Discovery):
+
+- [Demand and shaping](As%20Is%20Discovery/01-demand-and-shaping.md)
+- [Mobilisation, delivery, and live services](As%20Is%20Discovery/02-mobilisation-delivery-and-live-services.md)
+- [Annual funding and financial oversight](As%20Is%20Discovery/03-annual-funding-and-financial-oversight.md)
+
 The focus is Defra's Digital, Data, Technology and Security (DDTS) area. DDTS has no single view of all the work it needs to do, its importance, who is doing it, or its position in lifecycle stages and governance steps.
 
 Demand ranges from small, newly conceived ideas to mature policy initiatives that have had no digital input. Work is managed through smaller portfolios within delivery groups and through other routes, including Service Transformation.
