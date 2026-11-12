@@ -91,4 +91,4 @@ The process when continued funding is refused has not been established. Working 
 - Blocked and closed work does not have a visibly consistent process for updating portfolio and capacity commitments.
 - Strategic alignment and rejection of unjustified demand are proposed changes, not steps in the current flow.
 
-See the [discovery baseline](../README.md) for evidence, proposed changes, success criteria, and remaining questions.
+See the [discovery baseline](discovery-findings.md) for evidence, proposed changes, success criteria, and remaining questions.

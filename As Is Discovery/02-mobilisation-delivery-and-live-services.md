@@ -28,5 +28,4 @@ flowchart TD
 
 The Service Design Review Board was described as required before go-live. The precise Service Transformation handoff and the mapping of non-agile routes to that review need validation; dotted connectors do not assert a confirmed sequence. Review outcomes, formal acceptance criteria, and the exact sequencing of preparation activities have not been detailed.
 
-[Discovery baseline](../README.md) | [All process flows](../docs/current-process.md)
-
+[Discovery baseline](../docs/discovery-findings.md) | [All process flows](../docs/current-process.md)

@@ -28,5 +28,4 @@ flowchart TD
 
 Business case approval is normally expected, but its exact timing across routes is unconfirmed. Early DDTS involvement before the outline business case is a preference, not an established universal step. PAB refusal, deferral, and resubmission arrangements have not been described.
 
-[Discovery baseline](../README.md) | [All process flows](../docs/current-process.md)
-
+[Discovery baseline](../docs/discovery-findings.md) | [All process flows](../docs/current-process.md)

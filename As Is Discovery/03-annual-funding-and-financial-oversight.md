@@ -26,5 +26,4 @@ flowchart TD
 
 The process when continued funding is refused has not been established. Working at risk is a reported practice, not a recommendation or confirmation of commercial authorisation.
 
-[Discovery baseline](../README.md) | [All process flows](../docs/current-process.md)
-
+[Discovery baseline](../docs/discovery-findings.md) | [All process flows](../docs/current-process.md)
